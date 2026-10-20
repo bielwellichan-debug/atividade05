@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 1px;
+
+    background-color: rgb(250, 248, 248);
+    color: rgb(205, 163, 66);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+h1, h2, h3{
+    color: rgb(44, 44, 148);
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
