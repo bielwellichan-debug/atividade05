@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     margin: 1px;
 
@@ -14,11 +15,84 @@ body{
 }
 
 h1, h2, h3{
-    color: rgb(44, 44, 148);
+color: rgb(19, 111, 216);
 }
 
 h1{
     font-size: 40px;
     margin-bottom: 8px;
+    text-shadow: 4px 4px 2px black;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 27px;
+}
+
+a{
+    color: rgb(202, 15, 53);
+    text-decoration: none;
+}
+
+strong{
+    color: black;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto
+}
+
+.cabecalho{
+    background-color: rgb(19, 111, 216);
+    color: rgb(216, 175, 12);
+
+    padding: 30px 0;
+}
+
+.subtitulo{
+    color: black;
+    max-width: 700px;
+    font-family: cursive;
+}
+
+.cabecalho h1{
+    color: rgb(205, 163, 66);
+}
+
+.etiqueta{
+    margin-bottom: 5px;
+    color: rgb(13, 221, 114);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.menu-lista{
+    margin: 20px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.menu-lista li{
+    display: inline-block;
+
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link{
+    display: inline-block;
+
+    padding: 8px 12px;
+
+    background-color: white;
+    color: rgba(55, 165, 55, 0.984);
+    font-family: cursive;
 }
 
