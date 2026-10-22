@@ -7,14 +7,14 @@ body{
     margin: 1px;
 
     background-color: rgb(250, 248, 248);
-    color: rgb(205, 163, 66);
+    color: rgb(106, 196, 64);
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 1.6;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4{
 color: rgb(19, 111, 216);
 }
 
@@ -96,3 +96,45 @@ strong{
     font-family: cursive;
 }
 
+.grade-cards{
+    display: grid;
+    gap: 24px;
+}
+
+.card{
+    padding: 24px;
+    background-color: rgb(238, 229, 229);
+    border: 1px solid #779eca;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+}
+
+.container-imagens{
+    display: inline-block;
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(19, 111, 216);
+}
+
+#copyright{
+    color: black;
+}
+
+.contato{
+    color: rgb(44, 240, 44);
+    text-decoration: none;
+    font-style: normal;
+}
+
+span{
+    color: rgb(31, 29, 29);
+}
+
+.livro{
+    width: 460px;
+    height: 360px;
+}
